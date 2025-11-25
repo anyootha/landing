@@ -1,0 +1,16 @@
+.header {
+    background-color: aqua;
+
+    height: 750px;
+
+    background-image: url("./../../image/StockCake-construction.jpg");
+
+    background-image: image-set(
+        url("./../../image/StockCake-construction.jpg") 1x,
+        url("./../../image/StockCake-construction2x.jpg") 2x
+    );
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
