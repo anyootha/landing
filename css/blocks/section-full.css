@@ -1,0 +1,43 @@
+.section-full {
+    height: 750px;
+
+    display: flex;
+    align-items: center;
+
+        background-image: image-set(
+        url("./../../image/StockCake-modular_home.jpg") 1x,
+        url("./../../image/StockCake-modular_home2x.jpg") 2x
+        );
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    --angel: 10%;
+    clip-path: polygon(0% var(--angel), 100% 0%, 100% calc(100% - var(--angel)), 0% 100%);
+
+}
+
+.section-full-title {
+    margin-bottom: 10px;
+    font-family: var(--font-accent);
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.section-full-desc {
+    margin-bottom: 30px;
+
+    font-size: 22px;
+    line-height: 150%;
+    color: #fff;
+
+    font-weight: 200;
+}
+
+.section-full-btn-wrapper {
+
+}
+

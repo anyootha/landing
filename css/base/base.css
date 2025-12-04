@@ -11,18 +11,21 @@ body {
 
     font-family: var(--font-base);
     font-weight: 300;
+
+    padding-bottom: 600px;
 }
 
 a {
     color: #FAFAF5;
 }
 
-.title-1 {
+/*.title-1 {
     font-family: var(--font-accent);
     font-weight: 700;
     color: var(--accent);
     font-size: 96px;
 }
+*/
 
 .container {
     margin: 0 auto;
