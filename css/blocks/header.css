@@ -35,11 +35,6 @@
     color: var(--accent);
 }
 
-.header-img {
-    padding-top: 125px;
-    text-align: right;
-}
-
 @media (max-width: 886px) {
     .header-logo {
         display: none;
@@ -47,10 +42,6 @@
 
     .header-row {
         justify-content: center;
-    }
-
-    .header-img {
-        text-align: center;
     }
 }
 
@@ -73,9 +64,5 @@
     .header-nav {
         flex-direction: column;
         row-gap: 30px;
-    }
-
-    .header-img {
-        display: none;
     }
 }

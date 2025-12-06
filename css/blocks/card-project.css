@@ -1,10 +1,10 @@
-.card-group-img {
+.card-project-img {
     margin-bottom: 25px;
     border-radius: 20px;
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-group-title {
+.card-project-title {
     font-family: var(--font-accent);
     font-weight: 700;
     font-size: 43px;
@@ -13,19 +13,19 @@
 }
 
 @media (max-width: 1200px) {
-    .card-group-title {
+    .card-project-title {
         font-size: 36px;
     }
 }
 
 @media (max-width: 800px) {
-    .card-group-title {
+    .card-project-title {
         font-size: 26px;
     }
 }
 
 @media (max-width: 380px) {
-    .card-group-title {
+    .card-project-title {
         text-align: center;
     }
 }
