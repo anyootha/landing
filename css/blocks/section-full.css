@@ -14,12 +14,17 @@
     background-position: center top;
 
     --angel: 10%;
-    clip-path: polygon(0% var(--angel), 100% 0%, 100% calc(100% - var(--angel)), 0% 100%);
-
+    clip-path: polygon(
+        0% var(--angel),
+        100% 0%, 
+        100% calc(100% - var(--angel)), 
+        0% 100%
+    );
 }
 
 .section-full-title {
     margin-bottom: 10px;
+
     font-family: var(--font-accent);
     font-size: clamp(2.625rem, 1.875rem + 3.75vw, 4.688rem);
     font-weight: 700;

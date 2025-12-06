@@ -1,14 +1,5 @@
 .section {
     padding: 150px 0;
-
-}
-
-.section-interier {
-    
-}
-
-.container {
-
 }
 
 .section-header {
@@ -25,7 +16,6 @@
     font-family: var(--font-accent);
     font-weight: 700;
     color: var(--accent);
-    /*font-size: 96px;*/
     font-size: clamp(3rem, 1.909rem + 5.45vw, 6rem);
     letter-spacing: 0.08em;
 }
@@ -46,11 +36,12 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 150px 32px;
 }
+
 @media (max-width: 1200px) {
     .section-projects-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 80px 32px;
-}
+        grid-template-columns: repeat(3, 1fr);
+        gap: 80px 32px;
+    }
 }
 
 
@@ -73,12 +64,12 @@
         padding: 80px 0;
     }
 
-    ,section-header {
+    .section-header {
         margin-bottom: 30px;
     }
 
     .section-header p {
-    font-size: 14px;
+        font-size: 14px;
     }
 
     .section-interier-grid {
